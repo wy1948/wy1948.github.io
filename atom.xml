@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>初露微微</title>
+  
+  
+  <link href="http://wy1948.com/atom.xml" rel="self"/>
+  
+  <link href="http://wy1948.com/"/>
+  <updated>2020-11-08T11:14:21.997Z</updated>
+  <id>http://wy1948.com/</id>
+  
+  <author>
+    <name>初露微微</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>安卓Andriod studio 中实现智能聊天机器人</title>
+    <link href="http://wy1948.com/2020/11/06/%E5%AE%89%E5%8D%93Andriod-studio%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%99%BA%E8%83%BD%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://wy1948.com/2020/11/06/%E5%AE%89%E5%8D%93Andriod-studio%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%99%BA%E8%83%BD%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/</id>
+    <published>2020-11-06T10:49:22.000Z</published>
+    <updated>2020-11-08T11:14:21.997Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="安卓Andriod-studio-中实现智能聊天机器人"><a href="#安卓Andriod-studio-中实现智能聊天机器人" class="headerlink" title="安卓Andriod studio 中实现智能聊天机器人"></a>安卓Andriod studio 中实现智能聊天机器人</h1>  <a id="more"></a><h2 id="业务需求分析"><a href="#业务需求分析" class="headerlink" title="业务需求分析"></a>业务需求分析</h2><blockquote><p>当你工作比较疲惫时，想看一些笑话或者故事娱乐一下吗？为了更好地调节心情提高生活质量，我们开发了一款基于Android系统的智能聊天机器人，它能够与用户智能对话。如此智能的效果，涉及到对用户语义理解，以及对海量信息的精准搜索和分析，这点我们短时间无法做到，但是我们有幸能够调用第三方公司提供的开放API。 </p></blockquote><h2 id="模型需求分析"><a href="#模型需求分析" class="headerlink" title="模型需求分析"></a>模型需求分析</h2><blockquote><p>智能聊天机器人的模型流程顺序依次是①②③④⑤⑥，具体介绍如下：<br>① 将要显示的数据封装成Data数据。<br>② 将封装好的Data数据设置成HTTP请求数据。<br>③ 向图灵机器人服务器发送HTTP请求。<br>④ 图灵服务器接收到HTTP请求数据之后，返回JSON数据。<br>⑤ 将获取到的JSON数据进行解析。<br>⑥ 解析后的JSON数据封装并显示到界面中。  </p></blockquote><h2 id="界面效果-功能效果"><a href="#界面效果-功能效果" class="headerlink" title="界面效果+功能效果"></a>界面效果+功能效果</h2><blockquote><p><img src="https://img-blog.csdnimg.cn/20200628091931483.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5MTk0OA==,size_16,color_FFFFFF,t_70" alt="效果1">  </p></blockquote><h2 id="申请机器人身份标识"><a href="#申请机器人身份标识" class="headerlink" title="申请机器人身份标识"></a>申请机器人身份标识</h2><blockquote><p>图灵机器人官网申请一个机器人的Key值。链接：<a href="http://www.tuling123.com/sso-web/index.html?ReturnURL=http://www.tuling123.com/member/robot/index.jhtml">http://www.tuling123.com/sso-web/index.html?ReturnURL=http%3A%2F%2Fwww.tuling123.com%2Fmember%2Frobot%2Findex.jhtml</a><br><img src="https://img-blog.csdnimg.cn/20200628092141121.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5MTk0OA==,size_16,color_FFFFFF,t_70" alt="图灵界面">  </p></blockquote><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=31877636&auto=1&height=66"></iframe>]]></content>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;安卓Andriod-studio-中实现智能聊天机器人&quot;&gt;&lt;a href=&quot;#安卓Andriod-studio-中实现智能聊天机器人&quot; class=&quot;headerlink&quot; title=&quot;安卓Andriod studio 中实现智能聊天机器人&quot;&gt;&lt;/a&gt;安卓Andriod studio 中实现智能聊天机器人&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="随笔" scheme="http://wy1948.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
