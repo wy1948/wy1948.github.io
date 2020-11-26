@@ -8,13 +8,44 @@
   <link rel="dns-prefetch" href="http://wy1948.com">
   <title>初露微微</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="才开始接触网络安全，很多知识欠缺，一边学习一边用博客记录，希望自己能够坚持，可能有的内容掌握不太准确，如果有什么错误的地方还请大家多多指正，虚心接受大家的建议，大家一起加油~    @TOC     一、基本命令 1、命令：color f02、帮助：color ？ 3、作用：改变背景及字体颜色    1、命令：cls2、作用：清屏   二、目录相关命令 1、命令：dir c:2、其他用法：dir">
+<meta property="og:type" content="article">
 <meta property="og:title" content="初露微微">
-<meta property="og:url" content="http://wy1948.com/index.html">
+<meta property="og:url" content="http://wy1948.com/2020/11/26/%E3%80%90%E5%8D%83%E5%B3%B0%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E3%80%91%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="初露微微">
+<meta property="og:description" content="才开始接触网络安全，很多知识欠缺，一边学习一边用博客记录，希望自己能够坚持，可能有的内容掌握不太准确，如果有什么错误的地方还请大家多多指正，虚心接受大家的建议，大家一起加油~    @TOC     一、基本命令 1、命令：color f02、帮助：color ？ 3、作用：改变背景及字体颜色    1、命令：cls2、作用：清屏   二、目录相关命令 1、命令：dir c:2、其他用法：dir">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115114041214.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115114050679.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115114923840.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115114941252.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115115354917.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115115447518.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115115651408.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115115815407.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115115923761.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5MTk0OA==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115115954363.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5MTk0OA==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115120256574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5MTk0OA==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115120502740.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/202011151214191.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5MTk0OA==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115121705806.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5MTk0OA==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115122015518.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3d5MTk0OA==,size_16,color_FFFFFF,t_70#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115122658799.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115122706759.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115122810417.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115123018560.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115123028440.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020111512322337.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115123229664.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020111512332282.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020111512361722.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20201115123808437.png#pic_center">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/2020111512392239.png#pic_center">
+<meta property="article:published_time" content="2020-11-26T03:51:59.785Z">
+<meta property="article:modified_time" content="2020-11-26T03:52:15.206Z">
 <meta property="article:author" content="初露微微">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20201115114041214.png#pic_center">
   
     <link rel="alternative" href="/atom.xml" title="初露微微" type="application/atom+xml">
   
@@ -185,16 +216,38 @@ var _hmt = _hmt || [];
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-【千峰网安学习】基本Dos命令" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-【千峰网安学习】基本Dos命令" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
     <div class="article-entry" itemprop="articleBody">
       <!-- 文章头增加转载声明 -->
       
       
-        <div class="topdeclare" hidden="hidden"></div>
+        <div class="topdeclare">
+
+           <hr>
+          <strong>如需转载，请根据</strong>
+          <a rel="license noopener" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+          许可，附上本文作者及链接。
+          <br>
+
+          <strong>本文作者：</strong>
+          
+            初露微微
+          
+          <br>
+          <strong>作者昵称：</strong>
+          
+            wy1948
+          
+          <br>
+
+          <strong>本文链接：</strong>
+          <a rel="license" href="http://wy1948.com/2020/11/26/%E3%80%90%E5%8D%83%E5%B3%B0%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E3%80%91%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/">http://wy1948.com/2020/11/26/%E3%80%90%E5%8D%83%E5%B3%B0%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E3%80%91%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/</a>
+          <br>
+          <hr>
+
+        </div>
       
       
       <!-- 文章头增加转载声明结束 -->
@@ -306,6 +359,23 @@ var _hmt = _hmt || [];
 
       
       
+        
+          <div class="essayending">
+            <div>
+             <div style="text-align:center;color: #ccc;font-size:22px;">
+             <br/>
+             <br/>
+             -------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------
+             <br/>
+             <br/>
+              <br/>
+              <br/>
+             </div>
+            </div>
+          </div>
+        
+ 
+    
       
 <!-- 《添加版权声明 -->
 
@@ -321,6 +391,37 @@ var _hmt = _hmt || [];
 
 <!-- 添加版权声明》 -->
       
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/pay.png">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/wechat.png">
+                      <span class="reward-type">微信</span>
+                    </div>
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
     </div>
     <div class="article-info article-info-index">
       
@@ -328,142 +429,75 @@ var _hmt = _hmt || [];
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/11/26/%E3%80%90%E5%8D%83%E5%B3%B0%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E3%80%91%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/">展开全文 >></a>
-        </p>
-      
 
       
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
         
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-  
-    <article id="post-安卓Andriod-studio中实现智能聊天机器人项目" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/11/06/%E5%AE%89%E5%8D%93Andriod-studio%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%99%BA%E8%83%BD%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/">安卓Andriod studio 中实现智能聊天机器人</a>
-    </h1>
-  
-
-        
-        <a href="/2020/11/06/%E5%AE%89%E5%8D%93Andriod-studio%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%99%BA%E8%83%BD%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/" class="archive-article-date">
-  	<time datetime="2020-11-06T10:49:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-11-06</time>
-</a>
-         <!-- 需要添加的位置 -->
-        <!-- 开始添加字数统计-->
-        
-          <div style="margin-top:10px;">
-    <span class="post-time">
-      <span class="post-meta-item-icon">
-        <i class="fa fa-keyboard-o"></i>
-        <span class="post-meta-item-text">  字数统计: </span>
-        <span class="post-count">327字</span>
-      </span>
+      </div>
     </span>
-
-    <span class="post-time">
-      &nbsp; | &nbsp;
-      <span class="post-meta-item-icon">
-        <i class="fa fa-hourglass-half"></i>
-        <span class="post-meta-item-text">  阅读时长: </span>
-        <span class="post-count">1分</span>
-      </span>
-    </span>
+  </div>
 </div>
 
-          
-        <!-- 添加完成 -->
-               <!--显示阅读次数-->
- <span id="busuanzi_container_page_pv">
-  本文总阅读量<span id="busuanzi_value_page_pv"></span>次 </span>
-<!--显示阅读次数完毕-->
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      <!-- 文章头增加转载声明 -->
-      
-      
-        <div class="topdeclare" hidden="hidden"></div>
-      
-      
-      <!-- 文章头增加转载声明结束 -->
-      
-        <h1 id="安卓Andriod-studio-中实现智能聊天机器人"><a href="#安卓Andriod-studio-中实现智能聊天机器人" class="headerlink" title="安卓Andriod studio 中实现智能聊天机器人"></a>安卓Andriod studio 中实现智能聊天机器人</h1>
-        
-          <a class="article-more-a" href="/2020/11/06/%E5%AE%89%E5%8D%93Andriod-studio%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%99%BA%E8%83%BD%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/#more">more >></a>
-        
-      
-      
-      
-<!-- 《添加版权声明 -->
-
-  <!-- 《添加版权声明 -->
-<!--添加版权声明https://github.com/JoeyBling/hexo-theme-yilia-plus/commit/c1215e132f6d5621c5fea83d3c4f7ccbcca074a3-->
-
-
-<!-- #版权基础设定：0-关闭声明； 1-文章对应的md文件里有declare: true属性，才有版权声明； 2-所有文章均有版权声明 -->
-
-  <div class="declare" hidden="hidden"></div>
-
-<!-- 添加版权声明》 -->
-
-<!-- 添加版权声明》 -->
-      
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://wy1948.github.io/20/11/26/%E3%80%90%E5%8D%83%E5%B3%B0%E7%BD%91%E5%AE%89%E5%AD%A6%E4%B9%A0%E3%80%91%E5%9F%BA%E6%9C%ACDos%E5%91%BD%E4%BB%A4/" alt="微信分享二维码">
     </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
+</div>
 
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/11/06/%E5%AE%89%E5%8D%93Andriod-studio%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%99%BA%E8%83%BD%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/">展开全文 >></a>
-        </p>
-      
-
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2020/11/06/%E5%AE%89%E5%8D%93Andriod-studio%E4%B8%AD%E5%AE%9E%E7%8E%B0%E6%99%BA%E8%83%BD%E8%81%8A%E5%A4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E9%A1%B9%E7%9B%AE/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">安卓Andriod studio 中实现智能聊天机器人</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -478,15 +512,62 @@ var _hmt = _hmt || [];
         </div>
         
         
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E3%80%81%E5%9F%BA%E6%9C%AC%E5%91%BD%E4%BB%A4"><span class="toc-number">2.</span> <span class="toc-text">一、基本命令</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E3%80%81%E7%9B%AE%E5%BD%95%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4"><span class="toc-number">3.</span> <span class="toc-text">二、目录相关命令</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%96%87%E4%BB%B6%E7%9B%B8%E5%85%B3%E5%91%BD%E4%BB%A4"><span class="toc-number">4.</span> <span class="toc-text">三、文件相关命令</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E9%9A%90%E8%97%8F%E5%91%BD%E4%BB%A4"><span class="toc-number">5.</span> <span class="toc-text">四、隐藏命令</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E5%A4%8D%E5%88%B6%E7%A7%BB%E5%8A%A8%E5%92%8C%E4%BF%AE%E6%94%B9%E5%B1%9E%E6%80%A7"><span class="toc-number">6.</span> <span class="toc-text">四、复制移动和修改属性</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%94%E3%80%81%E5%AE%9A%E6%97%B6%E5%85%B3%E6%9C%BA%E5%92%8C%E9%87%8D%E5%90%AF"><span class="toc-number">7.</span> <span class="toc-text">五、定时关机和重启</span></a></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
     </div>
 </aside>
 
+  
+    <section id="comments" class="comments">
+      <style>
+        .comments{margin:30px;padding:10px;background:#fff}
+        @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+      </style>
+      <div id="vcomment" class="comment"></div> 
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+   var notify = 'false' == true ? true : false;
+   var verify = 'false' == true ? true : false;
+    window.onload = function() {
+        new Valine({
+            el: '.comment',
+            notify: notify,
+            verify: verify,
+            app_id: "jtNPAKmo6DRjUhQse6z71uUY-gzGzoHsz",
+            app_key: "oNBNvdWPVBHlEiQ3xA2w62JJ",
+            placeholder: "Just go go",
+            avatar:"retro"
+        });
+    }
+</script>
 
-
-
+  </section>
 
   
   
+  
+
+  
+
+  
+
+  
+
+
+
+
 
 
           </div>
@@ -559,8 +640,8 @@ setInterval("createtime()",250);
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
